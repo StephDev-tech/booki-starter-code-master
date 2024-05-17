@@ -84,7 +84,9 @@ a {
 
 .nav{
     height: 100%;
+    width: 50%;
     border-top: #0065fc00 solid 2px;
+    text-align: center;
     line-height: 3em;
 }
 
@@ -112,7 +114,7 @@ a {
 
 .icon-localisation{
     display: block;
-    width: 50px;
+    width: 40px;
     height: 44px;
     border-top-left-radius: 15px ;
     border-bottom-left-radius: 15px;
@@ -131,7 +133,9 @@ a {
 .input-recherche{
     height: 45px;
     width: 160px;
-    padding: 2px;
+    padding-left: 5px;
+    font-size: medium;
+    font-weight: bold;
     box-sizing: border-box;
     border-left: none;
     border-right: none;
@@ -141,7 +145,7 @@ a {
 
 .bouton-rechercher{
     height: 44px;
-    width: 150px;
+    width: 130px;
     font-family: 'Raleway', sans-serif;
     font-weight: bolder;
     font-size: 1em;
@@ -174,9 +178,16 @@ a {
     align-items: center;
 }
 
+.texte-filtre{
+    display: flex;
+    align-items: center;
+}
+
 .div-bouton-filtre{
     display: flex;
     flex-direction: row;
+    padding-top: 15px;
+    box-sizing: border-box;
 }
 
 .bouton-filtre{
@@ -441,6 +452,10 @@ a {
         justify-content: flex-start;
         align-items: flex-start;
     }
+
+    .div-bouton-filtre{
+        padding-top: 0;
+    }
     
     .hebergements-and-populaires {
         flex-direction: column;
@@ -479,7 +494,7 @@ a {
 
     .card-activites-marseille{
         width: 22%;
-        max-height: 300px;
+        max-height: 290px;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
@@ -515,7 +530,6 @@ a {
         justify-content: space-around;
         width: 100%;
         height: 190px;
-
     }
 
     .div-logo{
@@ -524,17 +538,22 @@ a {
     }
 
     .logo{
-        height: 50px;
-        width: 110px;
+        height: 30px;
+        width: 90px;
     }
 
     .navigation{
         width: 100%;
-        border-bottom: var(--main-bg-color) solid 3px;
     }
 
     .nav{
-        font-size: 1.5em;
+        padding-left: 16px;
+        box-sizing: border-box;
+        border-bottom: var(--main-bg-color) solid 3px;
+        width: 50%;
+        height: 100%;
+        text-align: center;
+        font-size: 1.3em;
     }
 
     .nav:hover{
@@ -587,24 +606,23 @@ a {
     }
 
     .div-bouton-filtre{
-        width: 90%;
+        width: 100%;
         display: flex;
         flex-wrap: wrap;
-        justify-content: space-around;
     }
 
     .bouton-filtre{
-        width: 149px;
-        height: min-content;
+        width: 40%;
     }
 
     .logo-filtre{
-        font-size: 1.em;
+        font-size: 1.05em;
         width: fit-content;
+   
     }
 
     .text-bouton-filtre{
-        font-size: 0.99em;
+        font-size: small;
         width: fit-content;
         text-align: justify;
     }
@@ -623,6 +641,7 @@ a {
 
     .populaires-cards {
         flex-direction: column;
+        align-items: center;
     }
 
     .populaires-cards a {
