@@ -121,7 +121,7 @@ a {
 .icon-localisation{
     display: block;
     width: 40px;
-    height: 44px;
+    height: 42px;
     border-top-left-radius: 15px ;
     border-bottom-left-radius: 15px;
     display: flex;
@@ -664,6 +664,11 @@ a {
 
     .div-info{
         gap: 5px;
+    }
+
+    .border-radius-logo-info{
+        border-radius: 120px;
+        width: 25px;
     }
 
     .hebergements-and-populaires{
