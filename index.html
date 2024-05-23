@@ -32,20 +32,22 @@
                     <h2 class="titre-header-main">Trouvez votre hébergement pour des vacances de rêve</h2>
                     <p class="texte-header-main">En plein centre-ville ou en pleine nature</p>
                 </div>
-                <form class="barre-de-recherche" action="/recherche" method="GET">
+                <form class="barre-de-recherche">
                     <label class="icon-localisation" for="recherche">
                         <i class="fa-solid fa-location-dot"></i>
                     </label>
                     <input class="input-recherche" type="text" name="recherche" id="recherche" placeholder="Marseille,France">
-                    <button class="bouton-rechercher">Rechercher</button>
-                    <button class="bouton-rechercher-logo"><i class="fa-solid fa-magnifying-glass"></i></button>
+                    <button class="bouton-rechercher">
+                       <span class="bouton-wording">Rechercher</span>
+                       <i class="fa-solid fa-magnifying-glass bouton-rechercher-logo"></i>
+                    </button>
                 </form>
                 <section class="filtres">
                     <h3 class="texte-filtre">Filtres</h3>
                     <div class="div-bouton-filtre">
                         <button class="bouton-filtre">
                             <i class="fa-solid fa-money-bill-wave logo-filtre"></i>
-                            Economique
+                            <span class="ellipsis-texte-bouton-recherche">Economique</span>
                         </button>
                         <button class="bouton-filtre">
                             <i class="fa-solid fa-person logo-filtre"></i>
@@ -53,11 +55,11 @@
                         </button>
                         <button class="bouton-filtre">
                             <i class="fa-solid fa-heart logo-filtre"></i>
-                            Romantique
+                            <span class="ellipsis-texte-bouton-recherche">Romantique</span>
                         </button>
                         <button class="bouton-filtre">
                             <i class="fa-solid fa-fire logo-filtre"></i>
-                            Nos pépites
+                            <span class="ellipsis-texte-bouton-recherche">Nos pépites</span>
                         </button>
                     </div>
                 </section>
@@ -242,7 +244,7 @@
                 <div class="liste-activites-marseille">
                     <a class="card-activites-marseille" href="">
                         <img class="image-activites-marseille" src="./images/activites/reno-laithienne.jpg" alt="photo d'une marina animée, où plusieurs bateaux sont amarrés">
-                        <p class="titre-activites-marseille"><span class="span-activites-marseille">Vieux-Port</span></p>
+                        <p class="titre-activites-marseille">Vieux-Port</p>
                     </a>
                     <a class="card-activites-marseille" href="">
                         <img class="image-activites-marseille" src="./images/activites/paul-hermann.jpg" alt="Image d'un fort en pierre entouré de plusieurs rochers ">
@@ -275,7 +277,7 @@
             <div class="div-footer">
                 <h3 class="titre-div-footer">Assistance</h3>
                 <a class="lien-footer" href="">Centre d'aide</a>
-                <a class="lien-footer" href="">Nous contacter</a>
+                <a class="lien-footer" href="mailto:" >Nous contacter</a>
             </div>
         </footer>
     </div>
