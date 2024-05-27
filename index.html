@@ -10,27 +10,27 @@
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
         integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        crossorigin="anonymous" referrerpolicy="no-referrer">
     <link rel="stylesheet" href="./css/style.css">
     <script src="https://kit.fontawesome.com/634baaa39d.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <div class="main-container">
         <header class="header">
-            <div class="div-logo">
+            <h1 class="div-logo">
                 <img class="logo" src="./images/logo/Booki.png" alt="logo du site Booki">
-            </div>
+            </h1>
             <nav class="navigation">
                 <a class="nav active" href="#hebergement">Hébergements</a>
                 <a class="nav" href="#activites">Activités</a>
             </nav>
         </header>
-<!------------------------------------------------------------------------------MAIN----------------------------------------------------------------------------------------------------------------------------------->        
+<!--******************************************************************************************MAIN*********************************************************************************************-->        
         <main>
             <header class="header-main">
                 <div>
                     <h2 class="titre-header-main">Trouvez votre hébergement pour des vacances de rêve</h2>
-                    <p class="texte-header-main">En plein centre-ville ou en pleine nature</p>
+                    <p class="sous-titre-header-main">En plein centre-ville ou en pleine nature</p>
                 </div>
                 <form class="barre-de-recherche">
                     <label class="icon-localisation" for="recherche">
@@ -43,7 +43,7 @@
                     </button>
                 </form>
                 <section class="filtres">
-                    <h3 class="texte-filtre">Filtres</h3>
+                    <h3 class="titre-filtre">Filtres</h3>
                     <div class="div-bouton-filtre">
                         <button class="bouton-filtre">
                             <i class="fa-solid fa-money-bill-wave logo-filtre"></i>
@@ -51,7 +51,7 @@
                         </button>
                         <button class="bouton-filtre">
                             <i class="fa-solid fa-person logo-filtre"></i>
-                            Familial
+                            <span class="ellipsis-texte-bouton-recherche">Familial</span>
                         </button>
                         <button class="bouton-filtre">
                             <i class="fa-solid fa-heart logo-filtre"></i>
@@ -70,9 +70,9 @@
                     <p class="texteInfo">Plus de <span>500</span> logements sont disponibles dans cette ville</p>
                 </div>
             </header>
-<!-----------------------------------------------------------------------------HEBERGEMENTS AND POPULAIRES---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->            
+<!--**************************************************************************HEBERGEMENTS AND POPULAIRES***************************************************************************************-->            
             <div class="hebergements-and-populaires">
-<!-----------------------------------------------------------------------------------HEBERGEMENTS--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+<!--**********************************************************************************HEBERGEMENTS**********************************************************************************************-->
                 <section id="hebergement" class="hebergements">
                     <h2 class="section-title">Hébergements à Marseillle</h2>
                     <div class="liste-card-hebergement">
@@ -171,7 +171,7 @@
                         <p class="text-bouton-hebergement">Afficher plus</p>
                     </a>
                 </section>
-<!-------------------------------------------------------------------------POPULAIRE---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+<!--*****************************************************************************POPULAIRE******************************************************************************************************-->
                 <section class="populaires">
                     <div class="populaires-title">
                         <h2 class="section-title">Les plus populaires</h2>
@@ -238,30 +238,28 @@
                     </div>
                 </section>
             </div>
-<!----------------------------------------------------------------------------ACTIVITES A MARSEILLE---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+<!--**********************************************************************ACTIVITES A MARSEILLE*************************************************************************************************-->
             <section id="activites" class="activites-marseille">
                 <h2 class="section-title section-title-activites-marseille">Activités à Marseille</h2>
                 <div class="liste-activites-marseille">
                     <a class="card-activites-marseille" href="">
                         <img class="image-activites-marseille" src="./images/activites/reno-laithienne.jpg" alt="Une marina animée, où plusieurs bateaux sont amarrés">
-                        <p class="titre-activites-marseille">Vieux-Port</p>
+                        <span class="titre-activites-marseille">Vieux-Port</span>
                     </a>
                     <a class="card-activites-marseille" href="">
                         <img class="image-activites-marseille" src="./images/activites/paul-hermann.jpg" alt="Un fort en pierre entouré de plusieurs rochers ">
-                        <p class="titre-activites-marseille"><span class="span-activites-marseille">Fort de Pomègues</span></p>
+                        <span class="titre-activites-marseille">Fort de pomègues</span>                    
                     </a>
                     <a class="card-activites-marseille" href="">
                         <img class="image-activites-marseille" src="./images/activites/kilyan-sockalingum.jpg" alt="Un paysage avec l'océan en arrière-plan et le littoral au premier plan.">
-                        <p class="titre-activites-marseille">Parc national des Calanques</p>
-                    </a>
+                        <span class="titre-activites-marseille">Parc national des Calanques</span>                    </a>
                     <a class="card-activites-marseille" href="">
                         <img class="image-activites-marseille" src="./images/activites/florian-wehde.jpg" alt="Basilique Notre Dame de la Garde en arrière-plan et un quartier de Marseille en avant-plan">
-                        <p class="titre-activites-marseille">Notre-Dame-de-la-Garde</p>
-                    </a>
+                        <span class="titre-activites-marseille">Notre-Dame-de-la-Garde</span>                    </a>
                 </div>  
             </section>       
         </main>
-<!------------------------------------------------------------------------------FOOTER----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------> 
+<!--****************************************************************************FOOTER**********************************************************************************************************--> 
         <footer class="footer">
             <div class="div-footer">
                 <h3 class="titre-div-footer">À propos</h3>
